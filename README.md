@@ -114,7 +114,7 @@ Put all the files in one folder.
 Example:
 
 ```txt
-discord-keyword-alert-bot/
+discord-keyword-alerts/
 ```
 
 Inside that folder, put:
