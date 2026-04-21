@@ -279,6 +279,3 @@ The files that are safe to upload are:
 ## License
 
 This project uses the MIT License.
-
-```
-```
