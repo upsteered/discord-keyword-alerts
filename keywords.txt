@@ -1,0 +1,13 @@
+# One keyword or phrase per line.
+# Add the terms you want the bot to alert on.
+
+pricing
+quote
+budget
+demo
+call
+agency
+help
+lead
+proposal
+interest
