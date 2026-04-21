@@ -1,15 +1,16 @@
-# Discord Keyword Alert Bot
 
-A simple Discord bot that watches messages in a server and alerts you when it sees words or phrases you choose.
+# Discord Keyword Alert System
+
+A simple Discord keyword monitoring system that watches messages in a server and alerts you when it sees words or phrases you choose.
 
 This project is a small companion utility for **Upsteered**:
 https://upsteered.com
 
 ---
 
-## What this bot does
+## What this system does
 
-This bot can:
+This system can:
 
 - watch Discord messages in a server
 - check them for keywords you choose
@@ -32,11 +33,11 @@ You need:
 
 ## Files in this project
 
-- `bot.py` — the main bot code
-- `keywords.txt` — the words or phrases the bot should look for
-- `requirements.txt` — the Python packages the bot needs
+- `bot.py` — the main system code
+- `keywords.txt` — the words or phrases the system should look for
+- `requirements.txt` — the Python packages the system needs
 - `.gitignore` — tells Git not to upload secret or unwanted files
-- `.env.example` — shows what secret settings the bot needs
+- `.env.example` — shows what secret settings the system needs
 - `README.md` — this guide
 - `LICENSE` — the license for the project
 
@@ -44,7 +45,7 @@ You need:
 
 ## Step 1: Install Python
 
-Python is the programming language this bot uses.
+Python is the programming language this system uses.
 
 ### How to install it
 1. Go to https://python.org
@@ -70,9 +71,9 @@ If Python is installed, you will see a version number.
 
 ---
 
-## Step 2: Create a Discord bot
+## Step 2: Create a Discord application
 
-A Discord bot is a special account that can read and send messages in servers.
+A Discord application is what allows your system to connect to Discord and read messages in servers.
 
 ### Do this:
 
@@ -82,27 +83,27 @@ A Discord bot is a special account that can read and send messages in servers.
 3. Give it a name
 4. Open the app, then go to **Bot**
 5. Click **Add Bot**
-6. Copy the bot token
+6. Copy the token
 
    * keep this secret
    * do not post it on GitHub
-7. In the bot settings, turn on **Message Content Intent**
+7. In the settings, turn on **Message Content Intent**
 
 ---
 
-## Step 3: Invite the bot to your server
+## Step 3: Invite it to your server
 
 1. In the Developer Portal, go to **OAuth2**
 2. Open **URL Generator**
 3. Under **Scopes**, check:
 
    * `bot`
-4. Under **Bot Permissions**, check:
+4. Under **Permissions**, check:
 
    * `Read Messages/View Channels`
    * `Send Messages`
 5. Copy the generated invite link
-6. Open the link and add the bot to your server
+6. Open the link and add it to your server
 
 ---
 
@@ -138,20 +139,20 @@ Run:
 pip install -r requirements.txt
 ```
 
-This installs the packages the bot needs.
+This installs the packages the system needs.
 
 ---
 
 ## Step 6: Create your `.env` file
 
-The bot needs your secret token to log in.
+The system needs your secret token to log in.
 
 Create a file named `.env` in the project folder.
 
 It should look like this:
 
 ```env
-TOKEN=your_discord_bot_token_here
+TOKEN=your_discord_token_here
 ```
 
 Important:
@@ -181,11 +182,11 @@ proposal
 interest
 ```
 
-The bot will alert when it finds one of these in a message.
+The system will alert when it finds one of these in a message.
 
 ---
 
-## Step 8: Run the bot
+## Step 8: Run it
 
 In the project folder, run:
 
@@ -199,7 +200,7 @@ or:
 python3 bot.py
 ```
 
-If everything is set up correctly, the bot will log in and start watching messages.
+If everything is set up correctly, it will log in and start watching messages.
 
 ---
 
@@ -213,18 +214,18 @@ Example:
 Can I get a demo and pricing?
 ```
 
-If the bot sees a keyword, it will print an alert.
+If it sees a keyword, it will print an alert.
 
 ---
 
 ## Optional: Send alerts to a Discord channel
 
-You can also make the bot send alerts to a specific channel.
+You can also make it send alerts to a specific channel.
 
 Add this to your `.env` file:
 
 ```env
-TOKEN=your_discord_bot_token_here
+TOKEN=your_discord_token_here
 ALERT_CHANNEL_ID=123456789012345678
 ```
 
@@ -239,7 +240,7 @@ To get the channel ID:
 
 ## How this connects to Upsteered
 
-This bot is meant to be a simple utility that supports the larger Upsteered system.
+This system is meant to be a simple utility that supports the larger Upsteered ecosystem.
 
 GitHub repo:
 
@@ -261,7 +262,7 @@ Link to Upsteered here:
 
 Never commit these to GitHub:
 
-* your Discord bot token
+* your Discord token
 * your `.env` file
 
 The files that are safe to upload are:
@@ -270,7 +271,7 @@ The files that are safe to upload are:
 * `keywords.txt`
 * `requirements.txt`
 * `.env.example`
-* ` .gitignore`
+* `.gitignore`
 * `README.md`
 * `LICENSE`
 
