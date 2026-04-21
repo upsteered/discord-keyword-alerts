@@ -1,5 +1,5 @@
 
-# Discord Keyword Alert System
+# Discord Keyword Alerts
 
 A simple Discord keyword monitoring system that watches messages in a server and alerts you when it sees words or phrases you choose.
 
