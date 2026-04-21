@@ -84,7 +84,6 @@ A Discord application is what allows your system to connect to Discord and read 
 4. Open the app, then go to **Bot**
 5. Click **Add Bot**
 6. Copy the token
-
    * keep this secret
    * do not post it on GitHub
 7. In the settings, turn on **Message Content Intent**
@@ -235,45 +234,6 @@ To get the channel ID:
 2. Turn on Developer Mode in Discord settings
 3. Right-click the channel
 4. Click **Copy Channel ID**
-
----
-
-## How this connects to Upsteered
-
-This system is meant to be a simple utility that supports the larger Upsteered ecosystem.
-
-GitHub repo:
-
-* helps people discover the tool
-* gives trust through open source
-* sends visitors to your main site
-
-Upsteered website:
-
-* explains what Upsteered does and how it works
-* is the main entry point to the platform and app
-
-Link to Upsteered here:
-[https://upsteered.com](https://upsteered.com)
-
----
-
-## Do not upload secrets
-
-Never commit these to GitHub:
-
-* your Discord token
-* your `.env` file
-
-The files that are safe to upload are:
-
-* `bot.py`
-* `keywords.txt`
-* `requirements.txt`
-* `.env.example`
-* `.gitignore`
-* `README.md`
-* `LICENSE`
 
 ---
 
