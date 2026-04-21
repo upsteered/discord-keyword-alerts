@@ -3,7 +3,7 @@
 
 A simple Discord keyword monitoring system that watches messages in a server and alerts you when it sees words or phrases you choose.
 
-This project is a small companion utility for **Upsteered**:
+This project is a small companion utility for **Upsteered**, a platform for turning conversations and online signals into business growth:
 https://upsteered.com
 
 ---
